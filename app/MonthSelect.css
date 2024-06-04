@@ -1,0 +1,23 @@
+.month-select-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .month-select {
+    flex: 1;
+  }
+  
+  .month-select label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .month-select .react-select__control {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
